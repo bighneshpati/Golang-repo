@@ -21,5 +21,12 @@ func main() {
 	fmt.Println("Hello world how are you ?")
 	fmt.Println(add(num1, num2))
 	fmt.Printf("%T, %v", num1, num1)
+	fmt.Println()
+	for j := 0; j < 1000; j++ {
+		print(j, " ")
+	}
+	fmt.Println()
+	j := 12
+	fmt.Println(j)
 	// fmt.Println(subtract(num1, num2))
 }
